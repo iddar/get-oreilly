@@ -1,0 +1,24 @@
+{
+  "name": "get-oreilly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "fetch"
+    ]
+  },
+  "keywords": [],
+  "author": "Iddar Olivares <iddar@dbug.mx> (https://medium.com/@iddar)",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "co": "^4.6.0",
+    "node-readability": "^2.2.0",
+    "node-wget": "^0.4.2"
+  }
+}
